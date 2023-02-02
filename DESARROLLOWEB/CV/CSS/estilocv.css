@@ -1,0 +1,94 @@
+    * {
+  box-sizing: border-box;
+}
+    
+    body { display:flex;
+    
+           
+        }
+              
+    .contenedor {
+                border: 2px ridge rgb(219, 236, 247);
+                border-left:  10px ridge rgb(219, 236, 247);
+                margin: 0 auto;
+                padding: 30px;
+                width: 60%;
+                background-color: rgb(241, 247, 248);
+                
+    }
+
+    .principal { background-color: rgb(255, 242, 248);
+                border: 2px solid rgb(196, 194, 194);
+                padding: 10px;
+                }
+    
+    .header { display: flex;}
+
+    img { margin-left: 40px;
+        border-radius: 90px
+          
+    }
+
+    .contenido { border: 2px solid rgb(220, 223, 228);
+            padding: 10px; }
+    
+    h1 { padding: 3px;
+        margin-left: 40px;
+        
+        color:slategray;
+        font-family: 'Roboto', sans-serif;  
+    }
+
+   
+    h3 { margin-left: 40px; 
+        color:slategray;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    
+    p { margin-left: 40px;
+        color :grey;
+        
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: small;
+    }
+
+    form { margin-left: 40px;}
+
+    label {
+        color:rgb(88, 100, 112);
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: small;
+        
+    }
+
+    input::placeholder {
+        color :grey;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size:smaller;
+     }
+
+    button {background-color:rgb(165, 164, 164);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    border-radius: 6px;
+    border-color: antiquewhite;
+    }    
+
+     @media only screen and (max-width: 620px) {
+        .contenedor {
+          width:100%;
+          flex-direction:column;
+              
+        }
+    
+    
+        
+    }
+    
+
+    
+
+
+        
+    
